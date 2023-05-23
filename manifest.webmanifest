@@ -1,13 +1,13 @@
 
 {
-    "theme_color": "#141414",
-    "background_color": "#141414",
+    "theme_color": "#5CB6F9",
+    "background_color": "#5CB6F9",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/index.html",
-    "name": "Notenapp",
-    "short_name": "Notenapp",
-    "description": "Notenapp",
+    "name": "Technet",
+    "short_name": "Technet",
+    "description": "Limitless Performance, Endless Possibilities!",
     "icons": [
         {
             "src": "/favicon.ico",
