@@ -21,4 +21,11 @@ function translateIntoGerman() {
 
 function translateIntoEnglish() {
     alert("Englisch");
+    setLocalStorageLanguage("EN");
+}
+
+function setLocalStorageLanguage(language) {
+    let htmlDom = document.body.innerHTML;
+    localStorage.setItem("language", language);
+    localStorage.setItem("domLanguage", htmlDom);
 }
