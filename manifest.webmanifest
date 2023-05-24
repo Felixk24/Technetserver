@@ -10,7 +10,7 @@
     "description": "Limitless Performance, Endless Possibilities!",
     "icons": [
         {
-            "src": "/favicon.ico",
+            "src": "img/favicon.ico",
             "sizes": "192x192",
             "type": "image/png"
         }
