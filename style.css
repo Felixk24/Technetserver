@@ -1,6 +1,5 @@
 #navRow1{
     background-color: green;
-    
 }
 #navTable {
     background-color: purple;
@@ -17,6 +16,7 @@
 #logo1td{
     max-width: 50px;
     max-height: auto;
+    margin: 0;
     
 }
 #navTable td p{
