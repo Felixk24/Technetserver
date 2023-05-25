@@ -1,16 +1,16 @@
 .navRow1{
-    background-color: green;
+    background-color: #5CB6F9;
     max-height: 70px;
 }
 
 .navTable {
-    background-color: purple;
+    background-color: #5CB6F9;
     border: none;
     width: 100%;
 }
 .navTable td:not(:first-child){
     align-items: center;
-    padding-left:50px ;
+    padding-left: 50px ;
     padding-right: 50px;
     text-align: center;
 }
@@ -25,4 +25,12 @@ body{
     margin:0;
     width: 100%;
     height: 70px;
+}
+
+#changeThemeBtn {
+    padding: 40%;
+    border-radius: 100%;
+    border: none;
+    background-color: black;
+    cursor: pointer;
 }

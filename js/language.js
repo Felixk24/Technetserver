@@ -21,11 +21,11 @@ function translateIntoGerman() {
 
 function translateIntoEnglish() {
     alert("Englisch");
-    setLocalStorageLanguage("EN");
+    //setLocalStorageLanguage("EN");
 }
 
-function setLocalStorageLanguage(language) {
+/*function setLocalStorageLanguage(language) {
     let htmlDom = document.body.innerHTML;
     localStorage.setItem("language", language);
     localStorage.setItem("domLanguage", htmlDom);
-}
+}*/

@@ -1,26 +1,28 @@
 /*THIS SCRIPT FILE LET THE USER SET THE THEME OF THIS WEBSITE*/
-let changeTheme = document.getElementById("changeTheme");
+let changeThemeBtn = document.getElementById("changeThemeBtn");
 
-changeTheme.addEventListener("click", () => {
+changeThemeBtn.addEventListener("click", () => {
     checkTheme();
 });
 
 function checkTheme() {
-    changeTheme = document.getElementById("changeTheme");
-    if (changeTheme.innerHTML === "☀") {
-        changeIntoXMode("🌑", "dark");
-    } else if (changeTheme.innerHTML === "🌑") {
-        changeIntoXMode("☀", "light");
+    changeThemeBtn = document.getElementById("changeThemeBtn");
+    if (changeThemeBtn.className == "changeThemeBtnInformationBlack") {
+        changeIntoXMode("white", "changeThemeBtnInformationWhite");
+    } else if (changeThemeBtn.className == "changeThemeBtnInformationWhite") {
+        changeIntoXMode("black", "changeThemeBtnInformationBlack");
     }
 }
 
-function changeIntoXMode(symbol, theme) {
-    changeTheme.innerHTML = symbol;
-    setLocalStorageTheme(theme);
+function changeIntoXMode(theme, x) {
+    changeThemeBtn.style.transitionDuration = "3s";
+    changeThemeBtn.style.backgroundColor = theme;
+    changeThemeBtn.className = x;
+    //setLocalStorageTheme(theme);
 }
 
-function setLocalStorageTheme(theme) {
+/*function setLocalStorageTheme(theme) {
     let htmlDom = document.body.innerHTML;
     localStorage.setItem("theme", theme);
     localStorage.setItem("domTheme", htmlDom);
-}
+}*/
