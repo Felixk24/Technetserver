@@ -1,28 +1,32 @@
-#navRow1{
+.navRow1{
     background-color: green;
     height: 70px;
 }
-#navTable {
+.navTable {
     background-color: purple;
     width: 100%;
     
 }
-#navTable td{
+.navTable td{
     align-items: center;
     padding-left:50px ;
     padding-right: 50px;
     text-align: center;}
 
-#logo1img,
-#logo1td{
+.logo1img,
+.logo1td{
     max-width: 50px;
     max-height: auto;
-    margin: 0;
     
 }
-#navTable td p{
-}
+
 
 body{
     margin:0;
+}
+
+#logo1{
+    margin:0;
+    padding:0;
+    width: 40%;
 }
