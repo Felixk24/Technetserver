@@ -1,7 +1,24 @@
 #navRow1{
-    margin-left: 20%;
+   
     background-color: green;
 }
 #navTable {
     background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    width: max-content;
+}
+#navTable td{
+    align-items: stretch;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+
+#logo1img,
+#logo1td{
+    max-width: 50px;
+    max-height: auto;
+    
 }
