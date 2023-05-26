@@ -9,6 +9,7 @@
     <script defer src="js\language.js"></script><!--Script file to select language-->
     <script defer src="js\theme.js"></script><!--Script file to change theme-->
     <link rel="stylesheet" href="style.css"><!--Main css file for this webpage-->
+    <link rel="stylesheet" href="css\menu.css"><!--Stylesheet for the menu-->
     <link rel="icon" type="image/x-icon" href="img\favicon.ico"><!--Favicon-->
     <link rel="manifest" href="manifest.webmanifest">
 </head>
@@ -25,12 +26,13 @@
                     <td title="Über uns" id="aboutUsNav"><a href="#">Über uns ▶</a></td>
                     <td title="Kontakt" id="contactNav"><a href="#">Kontakt ▶</a></td>
                     <td id="language">
+                        <img src="img\german.png" id="germanImg" alt="DE">
                         <select id="selectLang">
                             <option id="german">DE</option>
                             <option id="english">EN</option>
                         </select>
                     </td>
-                    <td title="Theme" id="changeThemeId" class="changeTheme"><button class="changeThemeBtnInformationBlack" id="changeThemeBtn"> </button></td>
+                    <td title="Theme" id="changeThemeId" class="changeTheme"><button class="changeThemeBtnInformationBlack" id="changeThemeBtn"> <font id="blackSide"> </font><font id="whiteSide"> </font></button></td>
                 </tr>
             </table>
         </nav>

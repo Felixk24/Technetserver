@@ -76,3 +76,10 @@ body{
     margin-bottom: 0%;
     margin-top: 0;
 }
+
+#germanImg {
+    width: 30px;
+    height: auto;
+    background-color: inherit;
+    cursor: pointer;
+}
