@@ -49,18 +49,6 @@ body{
     cursor: pointer;
 }
 
-#blackSide {
-    position: relative;
-    background-color: black;
-    width: 50%;
-}
-
-#whiteSide {
-    position: relative;
-    width: 50%;
-    background-color: white;
-}
-
 #germanImg {
     width: 30px;
     height: auto;
