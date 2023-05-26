@@ -27,6 +27,5 @@ function translateIntoEnglish() {
 /*function setLocalStorageLanguage(language) {
     let htmlDom = document.body.innerHTML;
     localStorage.setItem("language", language);
-    jakob hat was bearbeitet(sagt Marco)
     localStorage.setItem("domLanguage", htmlDom);
 }*/
