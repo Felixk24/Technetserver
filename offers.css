@@ -3,10 +3,22 @@
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 500px;
+    
 }
-.offersTable td{
+.offersTable .offersRow td{
     border-color: black;
     border-style:solid;
-    border: 1px;
+    border-width: 5px;
+    padding:90px 60px;
+    color:aqua
+    
 }
-
+.offersTable {
+    border-spacing: 200px 9px;
+    table-layout: fixed;
+    padding-top: 150px;
+}
+.offersTableDiv{
+    display: grid; 
+    text-align: center
+}
