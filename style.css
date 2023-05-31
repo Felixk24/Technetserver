@@ -89,3 +89,6 @@ body{
     opacity: 50%;
     z-index: 1;
 }
+.offersDiv{
+    background-image: url('img\logo2.png')
+}
