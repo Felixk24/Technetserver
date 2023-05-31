@@ -1,0 +1,12 @@
+.offersDiv{
+    background-image: url('img/logo2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 500px;
+}
+.offersTable td{
+    border-color: black;
+    border-style:solid;
+    border: 1px;
+}
+
