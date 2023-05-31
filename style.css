@@ -9,6 +9,7 @@
     border-spacing: 0;
     width: 100%;
     position:fixed;
+    z-index: 4;
 }
 .navTable td{
     border: black;
@@ -83,13 +84,8 @@ body{
     margin-bottom: 0%;
     margin-top: 0;
 }
-<<<<<<< HEAD
-
-#germanImg {
-    width: 30px;
-    height: auto;
-    background-color: inherit;
-    cursor: pointer;
+.logo2Img{
+    width: 100%;
+    opacity: 50%;
+    z-index: 1;
 }
-=======
->>>>>>> 716f3952d224e75eaf30adba66f33f2e7fd7004c
