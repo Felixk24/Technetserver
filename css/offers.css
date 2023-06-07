@@ -1,0 +1,25 @@
+.offersDiv{
+    background-image: url('img/logo2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 500px;
+    
+}
+.offersTable .offersRow td{
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    padding:90px 60px;
+    color:aqua;
+    max-width: 807.1px;
+    
+}
+.offersTable {
+    border-spacing: 100px 9px;
+    table-layout: fixed;
+    padding-top: 150px;
+}
+.offersTableDiv{
+    display: grid; 
+    text-align: center
+}

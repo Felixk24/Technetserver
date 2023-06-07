@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technet</title>
-    <script defer src="js\main.js"></script><!--Main script file for this webpage-->
-    <script defer src="js\language.js"></script><!--Script file to select language-->
-    <script defer src="js\theme.js"></script><!--Script file to change theme-->
-    <link rel="stylesheet" href="style.css"><!--Main css file for this webpage-->
-    <link rel="icon" type="image/x-icon" href="img\favicon.ico"><!--Favicon-->
+    <script defer src="js/main.js"></script><!--Main script file for this webpage-->
+    <script defer src="js/language.js"></script><!--Script file to select language-->
+    <script defer src="js/theme.js"></script><!--Script file to change theme-->
+    <link rel="stylesheet" href="css/style.css"><!--Main css file for this webpage-->
+    <link rel="stylesheet" href="css/offers.css"><!--Main css file for this webpage-->
+    <link rel="stylesheet" href="css/menu.css"><!--Stylesheet for the menu-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico"><!--Favicon-->
     <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
@@ -25,22 +27,31 @@
                     <td title="Über uns" id="aboutUsNav"><a href="#">Über uns ▶</a></td>
                     <td title="Kontakt" id="contactNav"><a href="#">Kontakt ▶</a></td>
                     <td id="language">
+                        <img src="img\german.png" id="germanImg" alt="DE">
                         <select id="selectLang">
                             <option id="german">DE</option>
                             <option id="english">EN</option>
                         </select>
                     </td>
-                    <td title="Theme" id="changeThemeId" class="changeTheme"><button class="changeThemeBtnInformationBlack" id="changeThemeBtn"> </button></td>
+                    <td title="Theme" id="changeThemeId" class="changeTheme"><button class="changeThemeBtnInformationBlack" id="changeThemeBtn"> <font id="blackSide"> </font><font id="whiteSide"> </font></button></td>
                 </tr>
             </table>
         </nav>
         <div class="showSloganHeaderDiv"><p id="slogantop">Limitless Performance,</p>
         <p id="sloganbottom">Endless Possibilities!</p> </div>
-        <div class="logo2Div">
-            <img src="img\logo2.png" alt="Technet Logo" title="Technet Logo">
-        </div>
         <div class="offersDiv">
-
+            <div class="offersTableDiv">
+                <table class="offersTable">
+                    <tr class="offersRow">
+                        <td id="cloudStorage"><h1>Cloud Storage</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></td>
+                        <td id="gamingServer"><h1>Gaming Server</h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</td>
+                    </tr>
+                    <tr class="offersRow">
+                        <td id="frontendServer"><h1>Frontend Server</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></td>
+                        <td id="backendDServer"><h1>Backend Server</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </header>
     <!--BEGIN MAIN-->
