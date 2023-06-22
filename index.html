@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/offers.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico"><!--Favicon-->
     <link rel="manifest" href="manifest.webmanifest">
+    <script defer src="js/menu.js"></script>
 </head>
 <body>
     <!--BEGIN HEADER-->
@@ -20,18 +21,24 @@
         <nav class="navigationbar">
             <table class="navTable">
                 <tr class="navRow1">
-                    <td class="logo1td" >
+                    <td class="logo1td" title="Startseite">
+                        <a href="#">
                         <img class="logo1img" id="logo1" src="img\logo1.png" alt="Technet Logo">
+                        </a>
                     </td>
-                    <td title="Angebote" id="offersNav"><a href="javascript:void(0)">Angebote ▶</a></td>
-                    <td title="Über uns" id="aboutUsNav"><a href="#">Über uns ▶</a></td>
-                    <td title="Kontakt" id="contactNav"><a href="#">Kontakt ▶</a></td>
+                    <td title="Angebote" id="offersNav">
+                        <a href="javascript:void(0)">Angebote</a>
+                        <div id="showOffersMenu">
+                            <a href="#">Cloud</a><br><br>
+                            <a href="#">Gaming</a><br><br>
+                            <a href="#">Frontend</a><br><br>
+                            <a href="">Backend</a>
+                        </div>
+                    </td>
+                    <td title="Über uns" id="aboutUsNav"><a href="#">Über uns</a></td>
+                    <td title="Kontakt" id="contactNav"><a href="#">Kontakt</a></td>
                     <td id="language">
                         <img src="img\german.png" id="germanImg" alt="DE">
-                        <select id="selectLang">
-                            <option id="german">DE</option>
-                            <option id="english">EN</option>
-                        </select>
                     </td>
                     <td title="Theme" id="changeThemeId" class="changeTheme"><button class="changeThemeBtnInformationBlack" id="changeThemeBtn"> <font id="blackSide"> </font><font id="whiteSide"> </font></button></td>
                 </tr>
