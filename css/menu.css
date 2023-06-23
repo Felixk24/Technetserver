@@ -1,9 +1,13 @@
+:root {
+    --technet: #5CB6F9;
+}
+
 .navRow1{
-    background-color: #5CB6F9;
+    background-color: --technet;
 }
 
 .navTable {
-    background-color: #5CB6F9;
+    background-color: var(--technet);
     position: fixed;
     font-weight: bold;
     height: 16%;
@@ -44,10 +48,10 @@
 
 #showOffersMenu {
     position: fixed;
-    top: 16.7%;
+    top: 16.6%;
     left: 16.66%;
     width: 16.66%;
-    background-color: #5CB6F9;
+    background-color: var(--technet);
     text-align: center;
     font-size: 30px;
     display: none;

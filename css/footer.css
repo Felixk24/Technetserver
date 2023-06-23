@@ -1,0 +1,61 @@
+:root {
+    --technet: #5CB6F9;
+}
+
+#offersTxt {
+    display: inline;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--technet);
+    padding-top: 2%;
+    padding-left: 1%;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: black;
+}
+
+footer a:hover {
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+#footerMenu {
+    text-align: center;
+}
+
+#footerMenu a {
+    margin-right: 10%;
+}
+
+#footerOffers a {
+    margin-right: 3%;
+}
+
+.fa-instagram {
+    background: none;
+    color: rgb(197, 84, 46);
+    text-decoration: none;
+}
+
+#sloganFooter {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+hr {
+    color: goldenrod
+}
+
+#yearTechnet {
+    text-align: center;
+}
