@@ -8,9 +8,9 @@
 
 footer {
     position: static;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    bottom: 1000px;
+    right: 10px;
+    left: 10px;
     background-color: var(--technet);
     padding-top: 2%;
     padding-left: 1%;
@@ -44,6 +44,7 @@ footer a:hover {
     background: none;
     color: rgb(197, 84, 46);
     text-decoration: none;
+    margin-left: 1%;
 }
 
 #sloganFooter {
@@ -58,4 +59,9 @@ hr {
 
 #yearTechnet {
     text-align: center;
+}
+
+#githubLogo {
+    width: 1.5%;
+    margin-left: 1%;
 }
