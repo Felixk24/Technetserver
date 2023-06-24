@@ -7,17 +7,17 @@ changeThemeBtn.addEventListener("click", () => {
 
 function checkTheme() {
     changeThemeBtn = document.getElementById("changeThemeBtn");
-    if (changeThemeBtn.className == "changeThemeBtnInformationBlack") {
-        changeIntoXMode("white", "changeThemeBtnInformationWhite");
-    } else if (changeThemeBtn.className == "changeThemeBtnInformationWhite") {
-        changeIntoXMode("black", "changeThemeBtnInformationBlack");
+    if (changeThemeBtn.innerHTML == "🌜") {
+        changeIntoXMode("☀️", "white");
+    } else if (changeThemeBtn.innerHTML == "☀️") {
+        changeIntoXMode("🌜", "black");
     }
 }
 
 function changeIntoXMode(theme, x) {
     changeThemeBtn.style.transitionDuration = "3s";
-    changeThemeBtn.style.backgroundColor = theme;
-    changeThemeBtn.className = x;
+    changeThemeBtn.innerHTML = theme;
+    changeThemeBtn.style.backgroundColor = x;
     //setLocalStorageTheme(theme);
 }
 

@@ -34,10 +34,11 @@
 }
 
 #changeThemeBtn {
-    padding: 20%;
     border-radius: 100%;
     border: none;
     background-color: black;
+    padding: 3%;
+    font-size: 30px;
     cursor: pointer;
 }
 
