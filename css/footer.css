@@ -7,14 +7,17 @@
 }
 
 footer {
-    position: static;
-    bottom: 1000px;
-    right: 10px;
-    left: 10px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
     background-color: var(--technet);
     padding-top: 2%;
     padding-left: 1%;
     font-size: 20px;
+    margin-bottom: -100px;
+    padding-bottom: 2%;
+    z-index: 1;
 }
 
 footer a {

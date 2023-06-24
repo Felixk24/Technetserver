@@ -10,9 +10,10 @@
     background-color: var(--technet);
     position: fixed;
     font-weight: bold;
-    height: 16%;
+    height: 95px;
     width: 100%;
     border-bottom: 1px solid black;
+    z-index: 3;
 }
 
 .navTable a {
@@ -49,7 +50,7 @@
 
 #showOffersMenu {
     position: fixed;
-    top: 16.6%;
+    top: 95px;
     left: 16.66%;
     width: 16.66%;
     background-color: var(--technet);
