@@ -26,7 +26,7 @@ function checkToCalculatePrice() {
         calcualteGamerNumber();
         calculateRamNumber();
         gamingPrice = String(gamingPrice.toFixed(2)).replace(".", ",");
-        showGamingPrice.style.color = "black";
+        showGamingPrice.style.color = "white";
         showGamingPrice.style.fontWeight = "normal"
         showGamingPrice.innerHTML = `Dein individueller Server kostet: <b>${gamingPrice}&euro;</b>`;
     } else {

@@ -3,8 +3,7 @@ main {
     margin-bottom: 10%;
 }
 
-#backgroundImg {
-    position: inherit;
+body {
     background-image: url("../img/gaming.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -16,12 +15,12 @@ h2, #gamingCalcHeading {
 
 #gamingIntroTxt {
     font-size: 20px;
-    color: blue;
+    color: white;
 }
 
 #showgamerNumber, #showramNumber {
     display: inline;
-    color: white;
+    color: #5CB6F9;
     font-Weight: bold;
 }
 
