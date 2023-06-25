@@ -5,6 +5,13 @@ body{
     background-color: white;
 }
 
+main {
+    position: relative;
+    top: 95px;
+    margin-left: 1%;
+    margin-bottom: 10%;
+}
+
 :root {
     --technet: #5CB6F9;
 }

@@ -1,32 +1,44 @@
 /*THIS FILE INCLUDES THE CODE TO LET THE USER SELECT THE LANGUAGE*/
 
-let selectLang = document.getElementById("selectLang");
-selectLang.addEventListener("change", () =>{
+let language = document.getElementById("language");
+language.addEventListener("click", () =>{
     selectLanguage();
 });
 
 function selectLanguage() {
-    let selected = document.getElementById("selectLang").value;
-    if (selected === "DE") {
-        translateIntoGerman();
-    }
-    if (selected === "EN") {
+    language = document.getElementById("language");
+    if (language.children[0].title === "EN") {
+        translateIntoGerman(language);
+    } else if (language.children[0].title === "DE") {
         translateIntoEnglish();
     }
 }
 
-function translateIntoGerman() {
+function translateIntoGerman(lang) {
     alert("Deutsch");
+    const flag = new flag("img/german.png");
+    let title = document.getElementById(lang.id.children[0]).title;
+    setFlag(flag, title)
+    setLocalStorageLanguage("DE");
 }
 
 function translateIntoEnglish() {
     alert("Englisch");
-    //setLocalStorageLanguage("EN");
+    const flag = new flag("img/english.png");
+    let title = document.getElementById(lang.id.children[0]).title;
+    setFlag(flag, title);
+    setLocalStorageLanguage("EN");
 }
 
-/*function setLocalStorageLanguage(language) {
-    let htmlDom = document.body.innerHTML;
-    localStorage.setItem("language", language);
-    jakob hat was bearbeitet(sagt Marco)
-    localStorage.setItem("domLanguage", htmlDom);
-}*/
+function setFlag(flag, title) {
+    let lang = document.getElementById("language");
+    lang.children[0].removeChild();
+    let img = document.createElement("img");
+    img.title = title;
+    img.src = flag;
+    lang.appendChild(img); 
+}
+
+function setLocalStorageLanguage(language) {
+    //localStorage.setItem("language", language);
+}

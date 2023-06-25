@@ -9,6 +9,7 @@
 .navTable {
     background-color: var(--technet);
     position: fixed;
+    top: 0px;
     font-weight: bold;
     height: 95px;
     width: 100%;
@@ -51,7 +52,7 @@
 
 #showOffersMenu {
     position: fixed;
-    top: 95px;
+    top: 94px;
     left: 16.66%;
     width: 16.66%;
     background-color: var(--technet);

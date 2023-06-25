@@ -1,0 +1,41 @@
+main {
+    margin-left: 1%;
+    margin-bottom: 10%;
+}
+
+#backgroundImg {
+    position: inherit;
+    background-image: url("../img/gaming.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2, #gamingCalcHeading {
+    color: red;
+}
+
+#gamingIntroTxt {
+    font-size: 20px;
+    color: blue;
+}
+
+#showgamerNumber, #showramNumber {
+    display: inline;
+    color: white;
+    font-Weight: bold;
+}
+
+#chooseGame, #chooseRunTime, #showGamingPrice, #showgamerNumber, #showramNumber {
+    font-size: 20px;
+}
+
+#gamerNumber {
+    height: 20px;
+}
+
+#calculateGamingPriceBtn {
+    border: none;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
